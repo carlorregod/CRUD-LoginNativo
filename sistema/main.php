@@ -18,13 +18,15 @@ mantener_sesion();
        <form action="../php/login/logout.php" method="POST">
        		<input type="submit" class="btn btn-primary my-2 mx-5" value="Salir">
        </form>
+
+   		<button class="btn btn-primary my-2 mx-5" id="btnSalir" onclick="salida()">Salir por js</button>
     </body>
     <footer>
     	<script src="https://code.jquery.com/jquery-3.4.0.js"
 			  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
 			  crossorigin="anonymous"></script> 
-		<script src="js/utils_register.js"></script>	  
-		<script src="js/register.js"></script>
+		<script src="../js/utilidades.js"></script>
+		<script src="../js/logout.js"></script>	  	  
     </footer>
 </html>
 

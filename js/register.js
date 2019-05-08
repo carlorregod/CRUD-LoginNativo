@@ -1,18 +1,3 @@
-ajaxCallback = function(parametros, url, method, callback, asynchr=true) {
-	$.ajax({
-		'type':method,
-		'url':url,
-		'data':parametros,
-		'asynchr':asynchr
-	})
-	.done(function(respuesta) {
-		callback(respuesta);
-	})
-	.fail(function(error) {
-		console.log('Ha ocurrido un error: '+error);
-	});
-};
-
 limpiaformulario = function() {
 	$('#nombre').val('');
 	$('#email').val('');
