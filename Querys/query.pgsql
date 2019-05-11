@@ -141,8 +141,16 @@ $body$ LANGUAGE 'plpgsql' volatile;
 
 --select fn_registroUsuario_i('aaa ddd','aaa@as.cl','aaa111','aaaa');
 
-
-
+------
+CREANDO UNA TABLA DE ARTÍCULOS
+drop table if exists articulos1;
+create table articulos1(
+id serial not null primary key,
+serie varchar not null, 
+producto varchar not null,
+constraint UQ_serie
+unique (serie);
+);
 
 
 
