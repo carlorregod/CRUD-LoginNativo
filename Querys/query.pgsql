@@ -149,10 +149,26 @@ id serial not null primary key,
 serie varchar not null, 
 producto varchar not null,
 constraint UQ_serie
-unique (serie);
+unique (serie)
 );
 
-
+insert into articulos1(serie, producto) values
+('A0001','Té'),
+('A0002','Café'),
+('A0003','Mate'),
+('A0004','Boldo'),
+('A0005','Menta'),
+('A0006','Cappucchino'),
+('A0007','Manzanilla'),
+('A0008','Agua Perra'),
+('A0009','Rosa Mosqueta'),
+('A0010','Naranjo'),
+('A0011','Té verde'),
+('A0012','Té rojo'),
+('A0013','Latte'),
+('A0014','Leche'),
+('A0015','Café con leche'),
+('A0016','Agua mineral');
 
 
 
