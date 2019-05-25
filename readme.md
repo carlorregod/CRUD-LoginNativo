@@ -10,6 +10,6 @@
 * AJAX-JQuery
 * Postgres
 
-### Sistema de votación restringido ###
+### Sistema de ingreso restringido y CRUD ###
 
 * ( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)
