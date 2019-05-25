@@ -1,6 +1,6 @@
 <?php 
 require_once '../php/login/mantencion_conexion.php';
-MantenerConexion::mantener_sesion();
+mantener_sesion();
 ?>
 
 <!DOCTYPE html>
@@ -35,11 +35,12 @@ MantenerConexion::mantener_sesion();
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary" id="txtIdProducto">Actualizar</button>
+            <button type="button" class="btn btn-primary" id="txtIdProducto" onclick="actualizar(this)">Actualizar</button>
           </div>
         </div>
       </div>
     </div>
+    
     
     <!-- Formulario -->
        	<h2 class="p-3 mb-2 bg-primary text-white">Bienvenido al sistema <?php echo strtoupper($_SESSION['nombre']);?></h2>
